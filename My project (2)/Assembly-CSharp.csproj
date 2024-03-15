@@ -53,17 +53,15 @@
     <UnityVersion>2021.3.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Traslacion.cs" />
-    <Compile Include="Assets\TraslacionV.cs" />
     <Compile Include="Assets\TraslacionT.cs" />
-    <Compile Include="Assets\TraslacionMa.cs" />
-    <Compile Include="Assets\TraslacionS.cs" />
     <Compile Include="Assets\TraslacionJ.cs" />
+    <Compile Include="Assets\Traslacion.cs" />
     <Compile Include="Assets\TraslacionU.cs" />
     <Compile Include="Assets\TraslacionN.cs" />
+    <Compile Include="Assets\TraslacionS.cs" />
+    <Compile Include="Assets\TraslacionV.cs" />
+    <Compile Include="Assets\TraslacionMa.cs" />
+    <Compile Include="Assets\MovCamara.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
